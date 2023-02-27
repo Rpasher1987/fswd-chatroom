@@ -38,3 +38,5 @@ rails s
 ```
 
 Visit localhost:3000 to see the app.
+
+Making additions for chatroom
