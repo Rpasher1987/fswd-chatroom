@@ -6,8 +6,8 @@ $.ajaxSetup({
   }
 });
 
-export var indexChats = function (successCB, errorCB) {
-  var request = {
+export const indexChats = function(successCB, errorCB) {
+  const request = {
     type: 'GET',
     url: 'api/chats',
     success: successCB,
@@ -17,8 +17,8 @@ export var indexChats = function (successCB, errorCB) {
   $.ajax(request);
 };
 
-export var postChat = function (message, name, successCB, errorCB) {
-  var request = {
+export const postChat = function(message, name, successCB, errorCB) {
+  const request = {
     type: 'POST',
     url: 'api/chats',
     data: {
